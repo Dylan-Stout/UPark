@@ -1,4 +1,5 @@
-<!DOCTYPE HTML>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
 <html>
 <head> 
     <title>UPark - Find a Parking Spot</title> 
@@ -8,6 +9,7 @@
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <body>
+
 
 
 </body>
