@@ -13,18 +13,18 @@
 
 </head>
 <body>
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default" color:#f1818>
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">
-        TEST
+      <a class="navbar-brand" href="#" >
+        UPARK
       </a>
     </div>
   </div>
 </nav>
 
 <div style="width:100%;height:90%;">
-<h1 align="center"><font color="white">Favorites</font> </h1>
+<h1 align="center"><font color=#F71818>Favorites</font> </h1>
 
 <button class="button button3" style="vertical-align:middle" id="UofUButton"><span>University Of Utah</span></button>
 <button class="button button3">Brigham Young University</button>
