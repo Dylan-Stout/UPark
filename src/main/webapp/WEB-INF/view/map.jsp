@@ -38,22 +38,69 @@
       <a class="navbar-brand" href="#">UPark</a>
     </div>
 <script>
+
 function initMap() {
 	var mapProp= {
-	    center:new google.maps.LatLng(40.7608,-111.8910),
+	    center:new google.maps.LatLng(40.765308,-111.841477),
 	    zoom:10,
 	};
 	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 	var marker = new google.maps.Marker({
-	    position: {lat: 40.7608, lng: -111.8910},
+	    position: {lat: 40.765308, lng: -111.841477},
 	    map: map,
 	    animation: google.maps.Animation.DROP,
-	    title: 'Union Parking Lot'
+	    title: 'University Of Utah'
 	  });
+	
+	var marker2 = new google.maps.Marker({
+	    position: {lat: 40.844672, lng: -111.929701},
+	    map: map,
+	    animation: google.maps.Animation.DROP,
+	    title: 'Marker2'
+	  });
+	
+	var marker3 = new google.maps.Marker({
+	    position: {lat: 40.733590, lng: -111.940452},
+	    map: map,
+	    animation: google.maps.Animation.DROP,
+	    title: 'MArker 3'
+	  });
+	
+	var marker4 = new google.maps.Marker({
+	    position: {lat: 40.779294, lng: -112.056125},
+	    map: map,
+	    animation: google.maps.Animation.DROP,
+	    title: 'Marker 4'
+	  });
+	
+	var marker5 = new google.maps.Marker({
+	    position: {lat: 40.622256, lng: -111.949380},
+	    map: map,
+	    animation: google.maps.Animation.DROP,
+	    title: 'Marker 4'
+	  });
+	
+	var marker6 = new google.maps.Marker({
+	    position: {lat: 40.676050, lng: -112.071613},
+	    map: map,
+	    animation: google.maps.Animation.DROP,
+	    title: 'Marker 4'
+	  });
+	
+	var marker7 = new google.maps.Marker({
+	    position: {lat: 40.667653, lng: -111.721865},
+	    map: map,
+	    animation: google.maps.Animation.DROP,
+	    title: 'Marker 4'
+	  });
+	
 	 animation: google.maps.Animation.DROP,
 /* 	 marker.addListener('click', toggleBounce); */
 	marker.addListener('click', function() {
         infowindow.open(map, marker);
+        $("#u-lot-button").click(function(){
+	    	window.location = "http://localhost:8080/lotDetails";
+	    });
       });
 	
 	function toggleBounce() {
@@ -67,22 +114,31 @@ function initMap() {
 	var contentString = '<div id="content">'+
     '<div id="siteNotice">'+
     '</div>'+
-    '<h1 id="firstHeading" class="firstHeading">University of Utah Parking</h1>'+
+    '<h1 id="firstHeading" class="firstHeading">University of Utah</h1>'+
     '<div id="bodyContent">'+
-    '<p><b>University of utah has several lots</b>, view them <button type="button" class="btn btn-default">HERE</button> ' +
+    '<p><b>This area has multiple parking lots</b>, view them <button type="button" class="button button2" id="u-lot-button" style="vertical-align:middle"><span>HERE</span></button> ' +
 '</p>'+
     '</div>'+
-    '</div>';
+    '</div> ';
 
 	var infowindow = new google.maps.InfoWindow({
 	  content: contentString
-	});
+	}); 
 	
 }
+
+
 
 </script>
  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVqZ_Lf9uXb_35jw5jBiWndrO0C592Luc&callback=initMap"
   type="text/javascript"></script>
+  
+  <script>
+  
+ 
+ 
+
+</script>
 
 
 </body>
