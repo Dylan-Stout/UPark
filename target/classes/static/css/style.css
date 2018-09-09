@@ -13,6 +13,17 @@ body {
     font-weight: bold;
 }
 
+.navbar-header {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #F71818;
+	font-weight: bold;
+	font-color: 
+}
+
+.navbar-brand {
+	color: F71818;
+}
+
 /*Table For Lot Details */
 table {
     border-collapse: collapse;
