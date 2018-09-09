@@ -44,7 +44,17 @@
 			<tr>
 				<td>Available parking lots</td>
 				<td>12</td>
-				<td>Image</td>
+				<td><svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   				 <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+   					 <title>Rectangle 3 Copy</title>
+    				<desc>Created with Sketch.</desc>
+    				<defs></defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="80">
+        <g id="Add-Locations" transform="translate(-295.000000, -171.000000)" stroke="#FF1400" stroke-width="4">
+            <path d="M313.5,173 L313.5,173 C322.612698,173 330,180.387302 330,189.5 L330,189.5 C330,198.612698 322.612698,206 313.5,206 L313.5,206 C304.387302,206 297,198.612698 297,189.5 L297,189.5 C297,180.387302 304.387302,173 313.5,173 Z" id="Rectangle-3-Copy"></path>
+        </g>
+    </g>
+</svg></td>
 			</tr>
 			<tr>
 				<td>201 Presidents Cir,</td>
@@ -80,7 +90,20 @@
 			<tr>
 				<td>Available parking lots</td>
 				<td>7</td>
-				<td>Image</td>
+				<td>
+						</svg>
+					<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 3 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="80">
+        <g id="Add-Locations" transform="translate(-295.000000, -171.000000)" stroke="#FF1400" stroke-width="4">
+            <path d="M313.5,173 L313.5,173 C322.612698,173 330,180.387302 330,189.5 L330,189.5 C330,198.612698 322.612698,206 313.5,206 L313.5,206 C304.387302,206 297,198.612698 297,189.5 L297,189.5 C297,180.387302 304.387302,173 313.5,173 Z" id="Rectangle-3-Copy"></path>
+        </g>
+    </g>
+</svg>
+				</td>
 			</tr>
 			<tr>
 				<td>1727 Student Life Way, Salt Lake City, UT 84112</td>
@@ -116,7 +139,20 @@
 			<tr>
 				<td>Available parking lots</td>
 				<td>5</td>
-				<td>Image</td>
+				<td>
+				</svg>
+					<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 3 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="80">
+        <g id="Add-Locations" transform="translate(-295.000000, -171.000000)" stroke="#FF1400" stroke-width="4">
+            <path d="M313.5,173 L313.5,173 C322.612698,173 330,180.387302 330,189.5 L330,189.5 C330,198.612698 322.612698,206 313.5,206 L313.5,206 C304.387302,206 297,198.612698 297,189.5 L297,189.5 C297,180.387302 304.387302,173 313.5,173 Z" id="Rectangle-3-Copy"></path>
+        </g>
+    </g>
+</svg>
+				</td>
 			</tr>
 			<tr>
 				<td>50 Central Campus Dr, Salt Lake City,</td>
