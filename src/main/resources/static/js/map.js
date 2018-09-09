@@ -1,8 +1,4 @@
-$(document).ready(function() {
 
-	
-
-});
 
 var locations = [
 	  ['Union Parking Lot', -33.890542, 151.274856, 4],
