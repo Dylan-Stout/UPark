@@ -8,22 +8,40 @@
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 
- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXp2evKNSHQ2WEC5BkdULvuUF-2wu4xtg&callback=initMap"
-  type="text/javascript"></script>
-</head>
+
+</head>	
 <body>
-<div id="googleMap" style="width:100%;height:400px;"></div>
-
+ <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+<div id="googleMap" style="width:100%;height:90%;"></div>
+ <div class="navbar-footer">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
 <script>
-function myMap() {
-var mapProp= {
-    center:new google.maps.LatLng(51.508742,-0.120850),
-    zoom:5,
-};
-var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+function initMap() {
+	var mapProp= {
+	    center:new google.maps.LatLng(40.7608,-111.8910),
+	    zoom:10,
+	};
+	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
-</script>
 
+</script>
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVqZ_Lf9uXb_35jw5jBiWndrO0C592Luc&callback=initMap"
+  type="text/javascript"></script>
 
 
 </body>
