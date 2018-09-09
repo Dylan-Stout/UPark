@@ -13,6 +13,29 @@ body {
     font-weight: bold;
 }
 
+/*Table For Lot Details */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+#lotInformation {
+	background-color: #5F5F5F;
+}
+
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    color: white;
+}
+
+.col-md-* {
+	color: white;
+}
+
+
 .button {
 	background-color: #F71818; /* RED */
 	border: none;
