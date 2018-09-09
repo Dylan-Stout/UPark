@@ -44,6 +44,40 @@ function initMap() {
 	    zoom:10,
 	};
 	var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+	var marker = new google.maps.Marker({
+	    position: {lat: 40.7608, lng: -111.8910},
+	    map: map,
+	    animation: google.maps.Animation.DROP,
+	    title: 'Union Parking Lot'
+	  });
+	 animation: google.maps.Animation.DROP,
+/* 	 marker.addListener('click', toggleBounce); */
+	marker.addListener('click', function() {
+        infowindow.open(map, marker);
+      });
+	
+	function toggleBounce() {
+		  if (marker.getAnimation() !== null) {
+		    marker.setAnimation(null);
+		  } else {
+		    marker.setAnimation(google.maps.Animation.BOUNCE);
+		  }
+		}
+	
+	var contentString = '<div id="content">'+
+    '<div id="siteNotice">'+
+    '</div>'+
+    '<h1 id="firstHeading" class="firstHeading">University of Utah Parking</h1>'+
+    '<div id="bodyContent">'+
+    '<p><b>University of utah has several lots</b>, view them <button type="button" class="btn btn-default">HERE</button> ' +
+'</p>'+
+    '</div>'+
+    '</div>';
+
+	var infowindow = new google.maps.InfoWindow({
+	  content: contentString
+	});
+	
 }
 
 </script>

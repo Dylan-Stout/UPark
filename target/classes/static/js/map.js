@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+	
+
 });
 
 var locations = [
@@ -9,3 +11,4 @@ var locations = [
 	  ['Huntsman Lot', -33.80010128657071, 151.28747820854187, 2],
 	  ['Central Campus Lot', -33.950198, 151.259302, 1]
 ];
+
