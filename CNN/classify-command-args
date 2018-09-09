@@ -1,0 +1,1 @@
+./upark-classify detect cfg/yolov3.cfg ~/Documents/workspace/trained-models/auto-YOLO-classify.weights data/dog.jpg

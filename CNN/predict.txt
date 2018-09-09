@@ -1,0 +1,5 @@
+data/horses.jpg: Predicted in 16.291294 seconds.
+horse: 100%
+horse: 100%
+horse: 96%
+horse: 95%
