@@ -12,5 +12,11 @@ public class MapController{
 	        model.addAttribute("name", "Dylan");
 	        return "map";
 	 }
+	 
+	 @GetMapping("/mapRedirect")
+	 public String redirectMap(Model model) {
+	        model.addAttribute("name", "Dylan");
+	        return "redirect:map";
+	 }
 
 }
