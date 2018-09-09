@@ -102,12 +102,48 @@ function initMap() {
 	    	window.location = "http://localhost:8080/lotDetails";
 	    });
       });
+      
+	marker2.addListener('click', function() {
+        infowindow2.open(map, marker2);
+	});
+	
+	marker3.addListener('click', function() {
+        infowindow3.open(map, marker3);
+	});
+	
+	marker4.addListener('click', function() {
+        infowindow4.open(map, marker4);
+	});
+	
+	marker5.addListener('click', function() {
+        infowindow5.open(map, marker5);
+	});
+	
+	marker6.addListener('click', function() {
+        infowindow6.open(map, marker6);
+	});
+	
+	marker7.addListener('click', function() {
+        infowindow7.open(map, marker7);
+	});
 	
 	function toggleBounce() {
 		  if (marker.getAnimation() !== null) {
 		    marker.setAnimation(null);
+		    marker2.setAnimation(null);
+		    marker3.setAnimation(null);
+		    marker4.setAnimation(null);
+		    marker5.setAnimation(null);
+		    marker6.setAnimation(null);
+		    marker7.setAnimation(null);
 		  } else {
 		    marker.setAnimation(google.maps.Animation.BOUNCE);
+		    marker2.setAnimation(google.maps.Animation.BOUNCE);
+		    marker3.setAnimation(google.maps.Animation.BOUNCE);
+		    marker4.setAnimation(google.maps.Animation.BOUNCE);
+		    marker5.setAnimation(google.maps.Animation.BOUNCE);
+		    marker6.setAnimation(google.maps.Animation.BOUNCE);
+		    marker7.setAnimation(google.maps.Animation.BOUNCE);
 		  }
 		}
 	
@@ -120,10 +156,98 @@ function initMap() {
 '</p>'+
     '</div>'+
     '</div> ';
+    
+    var contentString2 = '<div id="content">'+
+    '<div id="siteNotice">'+
+    '</div>'+
+    '<h1 id="firstHeading" class="firstHeading">Toms Event Center </h1>'+
+    '<div id="bodyContent">'+
+    '<p><b>This area has (2) parking lots</b>, view them <button type="button" class="button button2" id="u-lot-button" style="vertical-align:middle"><span>HERE</span></button> ' +
+'</p>'+
+    '</div>'+
+    '</div> ';
+    
+    var contentString3 = '<div id="content">'+
+    '<div id="siteNotice">'+
+    '</div>'+
+    '<h1 id="firstHeading" class="firstHeading">Pokemon Gym</h1>'+
+    '<div id="bodyContent">'+
+    '<p><b>This area 1 parking lot</b>, view them <button type="button" class="button button2" id="u-lot-button" style="vertical-align:middle"><span>HERE</span></button> ' +
+'</p>'+
+    '</div>'+
+    '</div> ';
+    
+    
+    var contentString4 = '<div id="content">'+
+    '<div id="siteNotice">'+
+    '</div>'+
+    '<h1 id="firstHeading" class="firstHeading">HackTheU - Secret Facility</h1>'+
+    '<div id="bodyContent">'+
+    '<p><b>This area has multiple parking lots</b>, view them <button type="button" class="button button2" id="u-lot-button" style="vertical-align:middle"><span>HERE</span></button> ' +
+'</p>'+
+    '</div>'+
+    '</div> ';
+    
+    
+    var contentString5 = '<div id="content">'+
+    '<div id="siteNotice">'+
+    '</div>'+
+    '<h1 id="firstHeading" class="firstHeading">Comic Con X</h1>'+
+    '<div id="bodyContent">'+
+    '<p><b>This area has multiple parking lots</b>, view them <button type="button" class="button button2" id="u-lot-button" style="vertical-align:middle"><span>HERE</span></button> ' +
+'</p>'+
+    '</div>'+
+    '</div> ';
+    
+    
+    var contentString6 = '<div id="content">'+
+    '<div id="siteNotice">'+
+    '</div>'+
+    '<h1 id="firstHeading" class="firstHeading">College Campus</h1>'+
+    '<div id="bodyContent">'+
+    '<p><b>This area has multiple parking lots</b>, view them <button type="button" class="button button2" id="u-lot-button" style="vertical-align:middle"><span>HERE</span></button> ' +
+'</p>'+
+    '</div>'+
+    '</div> ';
+    
+    
+    var contentString7 = '<div id="content">'+
+    '<div id="siteNotice">'+
+    '</div>'+
+    '<h1 id="firstHeading" class="firstHeading">True Nightmare Gaming Center</h1>'+
+    '<div id="bodyContent">'+
+    '<p><b>This area has multiple parking lots</b>, view them <button type="button" class="button button2" id="u-lot-button" style="vertical-align:middle"><span>HERE</span></button> ' +
+'</p>'+
+    '</div>'+
+    '</div> ';
 
 	var infowindow = new google.maps.InfoWindow({
 	  content: contentString
 	}); 
+	
+	var infowindow2 = new google.maps.InfoWindow({
+		  content: contentString2
+		}); 
+	
+	var infowindow3 = new google.maps.InfoWindow({
+		  content: contentString3
+		}); 
+	
+	var infowindow4 = new google.maps.InfoWindow({
+		  content: contentString4
+		}); 
+	
+	var infowindow5 = new google.maps.InfoWindow({
+		  content: contentString5
+		}); 
+	
+	var infowindow6 = new google.maps.InfoWindow({
+		  content: contentString6
+		}); 
+	
+	var infowindow7 = new google.maps.InfoWindow({
+		  content: contentString7
+		}); 
 	
 }
 
