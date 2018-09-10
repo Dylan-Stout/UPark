@@ -5,3 +5,6 @@ Makes use of darknet open source nueral network to determine automobiles enterin
 Darknet: Open Source Neural Networks in C - Joseph Redmon
 
 https://pjreddie.com/darknet/yolo/ 
+
+
+Major League Hacking project for 2018 season and HackTheU competition.
