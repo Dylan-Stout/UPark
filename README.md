@@ -1,4 +1,7 @@
-Winning project at HackTheU 2018, a Major League Hacking competition. 
+# UPark
+## Hackaton Project 2018
+
+**Winning project** at HackTheU 2018, a Major League Hacking competition. 
 
 ![Missing Image](car.png)
 
